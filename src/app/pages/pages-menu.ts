@@ -139,10 +139,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/pages/extra-components/calendar-kit',
       },
       {
-        title: 'Chat',
-        link: '/pages/extra-components/chat',
-      },
-      {
         title: 'from-inputs',
         link: '/pages/extra-components/from-inputs',
       },
@@ -185,20 +181,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
       {
         title: 'D3',
         link: '/pages/charts/d3',
-      },
-    ],
-  },
-  {
-    title: 'Editors',
-    icon: 'text-outline',
-    children: [
-      {
-        title: 'TinyMCE',
-        link: '/pages/editors/tinymce',
-      },
-      {
-        title: 'CKEditor',
-        link: '/pages/editors/ckeditor',
       },
     ],
   },

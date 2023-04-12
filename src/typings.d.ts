@@ -10,5 +10,3 @@ interface NodeModule {
   id: string;
 }
 
-declare var tinymce: any;
-

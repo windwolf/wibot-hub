@@ -6,7 +6,6 @@ import { AlertComponent } from './alert/alert.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { SpinnerComponent } from './spinner/spinner.component';
 import { CalendarComponent } from './calendar/calendar.component';
-import { ChatComponent } from './chat/chat.component';
 import { CalendarKitFullCalendarShowcaseComponent } from './calendar-kit/calendar-kit.component';
 import { NebularFormInputsComponent } from './form-inputs/nebular-form-inputs.component';
 
@@ -33,10 +32,6 @@ const routes: Routes = [{
     {
       path: 'calendar-kit',
       component: CalendarKitFullCalendarShowcaseComponent,
-    },
-    {
-      path: 'chat',
-      component: ChatComponent,
     },
     {
       path: 'from-inputs',

@@ -7,7 +7,6 @@ import {
   NbCalendarModule,
   NbCalendarRangeModule,
   NbCardModule,
-  NbChatModule,
   NbIconModule,
   NbProgressBarModule,
   NbSelectModule,
@@ -30,7 +29,6 @@ import {
 } from './progress-bar/interactive-progress-bar/interactive-progress-bar.component';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { AlertComponent } from './alert/alert.component';
-import { ChatComponent } from './chat/chat.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { DayCellComponent } from './calendar/day-cell/day-cell.component';
 import { NebularFormInputsComponent } from './form-inputs/nebular-form-inputs.component';
@@ -50,7 +48,6 @@ const COMPONENTS = [
   SpinnerInTabsComponent,
   CalendarComponent,
   DayCellComponent,
-  ChatComponent,
   NebularFormInputsComponent,
   NebularSelectComponent,
   CalendarKitFullCalendarShowcaseComponent,
@@ -65,7 +62,6 @@ const MODULES = [
   NbCalendarKitModule,
   NbCalendarRangeModule,
   NbCardModule,
-  NbChatModule,
   NbIconModule,
   NbProgressBarModule,
   NbSelectModule,
