@@ -11,6 +11,7 @@ export class TrafficChartService extends TrafficChartData {
   ];
 
   getTrafficChartData(): Observable<number[]> {
+    
     return observableOf(this.data);
   }
 }

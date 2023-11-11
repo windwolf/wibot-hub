@@ -1,0 +1,23 @@
+<nb-card class="inline-form-card">
+    <nb-card-header>
+        {{(type===PidType.current)?'Current':(type===PidType.speed)?'Speed': 'Position'}} PID
+    </nb-card-header>
+    <nb-card-body>
+        <form [formGroup]="pidFromGroup" class="form-inline">
+            <nb-form-field>
+                <label nbPrefix>P</label>
+                <input type="text" fieldSize="small" nbInput formControlName="p">
+            </nb-form-field>
+            <nb-form-field>
+                <label nbPrefix>I</label>
+                  <input type="text" fieldSize="small" nbInput formControlName="p">
+            </nb-form-field>
+            <nb-form-field>
+                <label nbPrefix>D</label>
+                <input type="text" fieldSize="small" nbInput formControlName="p">
+            </nb-form-field>
+            <button type="submit" nbButton size="small" (click)="load()">LOAD</button>
+            <button type="submit" nbButton size="small" (click)="save()">SAVE</button>
+        </form>
+    </nb-card-body> 
+</nb-card>

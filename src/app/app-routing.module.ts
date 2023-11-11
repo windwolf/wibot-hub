@@ -12,7 +12,7 @@ import {
 export const routes: Routes = [
   {
     path: 'pages',
-    loadChildren: () => import('./pages/pages.module')
+    loadChildren: () => import('./framework/pages.module')
       .then(m => m.PagesModule),
   },
   {
@@ -45,8 +45,8 @@ export const routes: Routes = [
       },
     ],
   },
-  { path: '', redirectTo: 'pages', pathMatch: 'full' },
-  { path: '**', redirectTo: 'pages' },
+  { path: '', redirectTo: 'pages/motor', pathMatch: 'full' },
+  { path: '**', redirectTo: 'pages/motor' },
 ];
 
 const config: ExtraOptions = {

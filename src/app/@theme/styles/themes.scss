@@ -4,18 +4,23 @@
 @import '@nebular/theme/styles/themes';
 
 $nb-themes: nb-register-theme((
-  layout-padding-top: 2.25rem,
+
+  
+  layout-padding: 1rem 1rem 1rem 1rem,
+  header-height: 4.0rem,
+  header-padding: 0.5rem,
 
   menu-item-icon-margin: 0 0.5rem 0 0,
-
+  
+  card-padding: 0.5rem 1rem,
   card-height-tiny: 13.5rem,
   card-height-small: 21.1875rem,
   card-height-medium: 28.875rem,
   card-height-large: 36.5625rem,
   card-height-giant: 44.25rem,
-  card-margin-bottom: 1.875rem,
-  card-header-with-select-padding-top: 0.5rem,
-  card-header-with-select-padding-bottom: 0.5rem,
+  card-margin-bottom: 1.0rem,
+  card-header-with-select-padding-top: 0.1rem,
+  card-header-with-select-padding-bottom: 0.1rem,
 
   select-min-width: 6rem,
 
